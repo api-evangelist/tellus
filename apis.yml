@@ -1,7 +1,27 @@
 aid: tellus
 name: Tellus
-description: Tellus is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Tellus is a consumer fintech company whose mobile app pairs high-yield savings
+  tools with real-estate-backed lending and property management. Members earn
+  competitive rates on cash held in Tellus accounts, funded by the company's
+  portfolio of residential real-estate loans, with deposits held at FDIC-insured
+  partner banks. The app also offers a mobile wallet, a business wallet, and
+  property-management tooling for landlords and property owners. Tellus is a
+  private, venture-backed startup (an a16z portfolio company); it operates as a
+  direct-to-consumer mobile product and does not publish a public developer API,
+  developer portal, or API documentation.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.tellusapp.com/apple_touch_icon.png
 url: https://raw.githubusercontent.com/api-evangelist/tellus/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +29,39 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fintech
+- Savings
+- Real Estate
+- Lending
+- Property Management
+- Mobile App
+- Consumer Finance
 apis: []
+common:
+- type: DomainSecurity
+  url: security/tellus-domain-security.yml
+- type: Website
+  url: https://www.tellusapp.com/
+- type: Login
+  url: https://web.tellusapp.com
+- type: SignUp
+  url: https://get.tellusapp.com/
+- type: PrivacyPolicy
+  url: https://www.tellusapp.com/privacy/
+- type: TermsOfService
+  url: https://www.tellusapp.com/terms-of-service/
+- type: Support
+  url: mailto:support@tellusapp.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
