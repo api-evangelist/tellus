@@ -52,7 +52,7 @@ tags:
 - Company
 - Fintech
 - Savings
-- Real-Estate
+- Real Estate
 - Lending
 - Property Management
 - Mobile App
@@ -66,6 +66,7 @@ tags_raw:
 - Property Management
 - Mobile App
 - Consumer Finance
+- Real-Estate
 apis: []
 common:
 - type: DomainSecurity
