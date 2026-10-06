@@ -47,7 +47,7 @@ x-enrichment:
   pass: local-v1
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-21'
+modified: '2026-10-06'
 tags:
 - Company
 - Fintech
@@ -69,6 +69,10 @@ tags_raw:
 - Real-Estate
 apis: []
 common:
+- url: https://www.tellusapp.com/blog/
+  type: Blog
+- url: https://www.tellusapp.com/blog/rss/
+  type: BlogRSS
 - type: DomainSecurity
   url: security/tellus-domain-security.yml
 - type: Website
